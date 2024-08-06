@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "Hilfsprogramme",
+			"path": "."
+		},
+		{
+			"name": "bin",
+			"path": "../EM_Tippspiel/backup/fussball_project/bin"
+		}
+	],
+	"settings": {}
+}

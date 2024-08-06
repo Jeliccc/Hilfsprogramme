@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do-Liste</title>
+    <link rel="stylesheet" href="/css/arbeitszeit.css">
+    <script defer src="/js/scripts_arbeitszeit.js"></script>
+  </head>
+  <body>
+    <div id="main-list">
+      <h1 id="main-header">Arbeitszeitrechner</h1>
+      <h2 id="second-header">Pausen werden automatisch nach 6 und 9 Stunden abgezogen.</h2>
+      <div class="list">
+        <p>Arbeitsbeginn</p>
+        <input type="time" id="start-time">
+      </div>
+      <div class="list">
+        <p>Arbeitsende</p>
+        <input type="time" id="end-time">
+      </div>
+      <div class="list">
+        <button id="calculate-button">Berechnen</button>
+      </div>
+      <div class="list">
+        <p>Arbeitsstunden:</p>
+        <output id="work-hours"></output>
+      </div>
+    </div>
+  </body>
+</html>

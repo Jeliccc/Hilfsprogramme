@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 170vh;
+    font-family: Arial, sans-serif;
+    background-color: #d9d9d9;
+    margin: 0 auto;
+  }
+
+#main-list {
+    background-color: lightblue;
+    height: 40vh;
+    width: 65vh;
+    border: black 2px solid;
+}
+
+#main-header {
+  text-align: center;
+  font-size: 30px;
+}
+
+#second-header {
+  text-align: center;
+  font-size: 15px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
